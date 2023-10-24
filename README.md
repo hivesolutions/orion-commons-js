@@ -1,3 +1,3 @@
 # Orion Commons for JavaScript
 
-Common Orion library for JavaScript/TypeScript.
+Commons Orion library for JavaScript/TypeScript.
