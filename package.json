@@ -8,11 +8,9 @@
     },
     "license": "Apache-2.0",
     "scripts": {
-        "build": "tsc index.ts --module amd --outfile dist/index.js",
+        "build": "tsc",
         "lint": "eslint .",
-        "pretty": "prettier --config .prettierrc \"./**/*.{js,ts,tsx,json}\" --write",
-        "test": "npm run test:mocha",
-        "test:mocha": "mocha --recursive test"
+        "pretty": "prettier --config .prettierrc \"./**/*.{js,ts,tsx,json}\" --write"
     },
     "source": "index.ts",
     "peerDependencies": {
