@@ -10,11 +10,13 @@
     "scripts": {
         "build": "tsc",
         "lint": "eslint .",
-        "pretty": "prettier --config .prettierrc \"./**/*.{js,ts,tsx,json}\" --write"
+        "pretty": "prettier --config .prettierrc \"./**/*.{js,ts,tsx,json}\" --write",
+        "watch": "tsc --watch"
     },
     "source": "index.ts",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "typings": "index.ts",
     "peerDependencies": {
         "hive-js-util": "^0.4.1",
         "yonius": "^0.13.5"
