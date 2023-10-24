@@ -5,6 +5,7 @@
         "resolveJsonModule": true,
         "allowSyntheticDefaultImports": true,
         "target": "es6",
+        "declaration": true,
         "noImplicitAny": true,
         "noImplicitThis": true,
         "noUnusedLocals": true,
@@ -23,5 +24,5 @@
         }
     },
     "include": ["**/*"],
-    "exclude": []
+    "exclude": ["dist"]
 }

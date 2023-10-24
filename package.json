@@ -13,6 +13,8 @@
         "pretty": "prettier --config .prettierrc \"./**/*.{js,ts,tsx,json}\" --write"
     },
     "source": "index.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "peerDependencies": {
         "hive-js-util": "^0.4.1",
         "yonius": "^0.13.5"
