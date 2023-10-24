@@ -21,6 +21,7 @@
     "types": "dist/index.d.ts",
     "typings": "index.ts",
     "peerDependencies": {
+        "dotenv": "^16.3.1",
         "hive-js-util": "^0.4.1",
         "yonius": "^0.13.5"
     },
@@ -31,6 +32,7 @@
         "@typescript-eslint/eslint-plugin": "^6.9.0",
         "@typescript-eslint/parser": "^6.9.0",
         "chai": "^4.3.10",
+        "dotenv": "^16.3.1",
         "eslint": "^8.52.0",
         "hive-js-util": "^0.4.1",
         "mocha": "^10.2.0",
