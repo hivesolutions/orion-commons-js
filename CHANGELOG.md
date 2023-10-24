@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* New `setupSignals()` and `setupEnv()` operations
+*
 
 ### Changed
 
@@ -18,6 +18,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 *
+
+## [0.1.2] - 2023-10-24
+
+### Added
+
+* New `setupSignals()` and `setupEnv()` operations
 
 ## [0.1.1] - 2023-10-24
 
