@@ -1,8 +1,9 @@
+import { confP } from "yonius";
 import util from "hive-js-util";
 
 const { Logging } = util;
 
-const setupLogging = async () => {
+export const setupLogging = async () => {
     const level = ((await confP("LEVEL", "DEBUG")) as string).toUpperCase();
 
     const logger = Logging.getLogger(undefined, {
