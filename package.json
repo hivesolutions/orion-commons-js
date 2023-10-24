@@ -11,8 +11,11 @@
         "build": "tsc",
         "lint": "eslint .",
         "pretty": "prettier --config .prettierrc \"./**/*.{js,ts,tsx,json}\" --write",
+        "test": "npm run test:mocha",
+        "test:mocha": "mocha --require ts-node/register --recursive test",
         "watch": "tsc --watch"
     },
+    "type": "module",
     "source": "index.ts",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -22,13 +25,20 @@
         "yonius": "^0.13.5"
     },
     "devDependencies": {
+        "@types/chai": "^4.3.9",
+        "@types/mocha": "^10.0.3",
+        "@types/node": "^20.8.8",
         "@typescript-eslint/eslint-plugin": "^6.9.0",
         "@typescript-eslint/parser": "^6.9.0",
+        "chai": "^4.3.10",
         "eslint": "^8.52.0",
         "hive-js-util": "^0.4.1",
+        "mocha": "^10.2.0",
+        "mocha-cli": "^1.0.1",
         "prettier": "^3.0.3",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "ts-node": "^10.9.1",
         "typescript": "^5.2.2",
         "yonius": "^0.13.5"
     }
