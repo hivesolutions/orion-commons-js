@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Support for `upsertDirectory()` and `pathExists()` functions
+*
 
 ### Changed
 
@@ -18,6 +18,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 *
+
+## [0.1.3] - 2023-10-25
+
+### Added
+
+* Support for `upsertDirectory()` and `pathExists()` functions
 
 ## [0.1.2] - 2023-10-24
 
