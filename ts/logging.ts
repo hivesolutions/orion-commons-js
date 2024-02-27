@@ -1,9 +1,9 @@
 import { confP } from "yonius";
-import util from "hive-js-util";
+import util, { LoggingContext } from "hive-js-util";
 
 const { Logging } = util;
 
-export const setupLogging = async () => {
+export const setupLogging = async (ctx?: LoggingContext) => {
     const level = ((await confP("LEVEL", "DEBUG")) as string).toUpperCase();
     const logstashUrl = (await confP(
         "LOGSTASH_BASE_URL",
@@ -24,6 +24,6 @@ export const setupLogging = async () => {
     }
 
     if (logstashUrl && Logging.LogstashHandler.isReady(logstashUrl)) {
-        logger.addHandler(new Logging.LogstashHandler(logstashUrl));
+        logger.addHandler(new Logging.LogstashHandler(logstashUrl, ctx));
     }
 };
