@@ -13,11 +13,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-* Added ctx support in `setupLogging()`
+*
 
 ### Fixed
 
 *
+
+## [0.1.6] - 2024-02-27
+
+### Changed
+
+* Added ctx support in `setupLogging()`
 
 ## [0.1.5] - 2024-02-27
 
