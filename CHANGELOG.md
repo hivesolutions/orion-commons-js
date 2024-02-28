@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-*
+* Typo in version naming
 
 ## [0.1.7] - 2024-02-28
 
