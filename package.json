@@ -22,7 +22,7 @@
     "typings": "index.ts",
     "peerDependencies": {
         "dotenv": "^16.4.5",
-        "hive-js-util": "^0.5.2",
+        "hive-js-util": "^0.5.3",
         "yonius": "^0.13.11"
     },
     "devDependencies": {
