@@ -1,11 +1,10 @@
 {
     "compilerOptions": {
-        "module": "ES2015",
-        "moduleResolution": "node",
-        "resolveJsonModule": true,
-        "allowSyntheticDefaultImports": true,
+        "module": "esnext",
         "target": "es6",
-        "declaration": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "strict": true,
         "noImplicitAny": true,
         "noImplicitThis": true,
         "noUnusedLocals": true,
@@ -15,9 +14,9 @@
         "strictFunctionTypes": true,
         "strictPropertyInitialization": true,
         "sourceMap": true,
-        "jsx": "react",
-        "outDir": "./dist",
-        "baseUrl": ".",
+        "resolveJsonModule": true,
+        "outDir": "dist",
+        "baseUrl": "src",
         "lib": ["es2019", "dom"],
         "paths": {
             "*": ["node_modules/*", "src/types/*"]
