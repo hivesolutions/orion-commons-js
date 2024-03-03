@@ -16,7 +16,7 @@
         "sourceMap": true,
         "resolveJsonModule": true,
         "outDir": "dist",
-        "baseUrl": "src",
+        "baseUrl": "ts",
         "lib": ["es2019", "dom"],
         "paths": {
             "*": ["node_modules/*", "src/types/*"]
