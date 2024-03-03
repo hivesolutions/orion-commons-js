@@ -9,11 +9,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Support for fastify handlers and structures
+*
 
 ### Changed
 
 *
+
+### Fixed
+
+*
+
+## [0.1.8] - 2024-03-03
+
+### Added
+
+* Support for fastify handlers and structures
 
 ### Fixed
 
