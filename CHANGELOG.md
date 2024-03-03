@@ -19,6 +19,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 *
 
+## [0.1.9] - 2024-03-03
+
+### Fixed
+
+* Issue related to building of package
+* Consistency of `tsconfig.json` with other orion projects
+
 ## [0.1.8] - 2024-03-03
 
 ### Added
