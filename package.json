@@ -8,12 +8,14 @@
     },
     "license": "Apache-2.0",
     "scripts": {
-        "build": "tsc",
-        "lint": "eslint .",
-        "pretty": "prettier --config .prettierrc \"./**/*.{js,ts,tsx,json}\" --write",
+        "build": "tsc -p .",
+        "lint": "eslint \"./**/*.{js,ts,cjs}\"",
+        "lint-fix": "eslint \"./**/*.{js,ts,cjs}\" --fix",
+        "prettier": "prettier \"./**/*.{js,ts,cjs,json}\" --write",
+        "pretty": "npm run prettier && npm run lint-fix",
         "test": "npm run test:mocha",
         "test:mocha": "mocha --require ts-node/register --recursive test",
-        "watch": "tsc --watch"
+        "watch": "tsc -p . --watch"
     },
     "type": "module",
     "source": "index.ts",
