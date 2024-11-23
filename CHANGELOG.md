@@ -13,11 +13,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-* Bumped a series of main packages, including Fastify
+*
 
 ### Fixed
 
 *
+
+## [0.1.10] - 2024-11-23
+
+### Changed
+
+* Bumped a series of main packages, including Fastify
 
 ## [0.1.9] - 2024-03-03
 

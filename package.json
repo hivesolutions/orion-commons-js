@@ -1,6 +1,6 @@
 {
     "name": "orion-commons",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "description": "Commons Orion library",
     "repository": {
         "type": "git",
