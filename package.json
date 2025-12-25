@@ -23,7 +23,7 @@
     "types": "dist/index.d.ts",
     "typings": "index.ts",
     "peerDependencies": {
-        "dotenv": "^16.4.5",
+        "dotenv": "^17.2.3",
         "fastify": "^5.1.0",
         "hive-js-util": "^0.5.3",
         "yonius": "^0.13.11"
