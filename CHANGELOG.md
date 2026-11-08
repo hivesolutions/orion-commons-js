@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-* Support for version 0.6 of the Hive utilities, which runs on Node.js 21 or newer
+* Requires version 0.6.1 of the Hive utilities, which runs on Node.js 21 or newer
 
 ### Fixed
 
