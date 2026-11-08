@@ -13,11 +13,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-* Requires version 0.6.1 of the Hive utilities, which runs on Node.js 21 or newer
+*
 
 ### Fixed
 
 *
+
+## [0.2.0] - 2026-11-08
+
+### Changed
+
+* Requires version 0.6.1 of the Hive utilities, which runs on Node.js 21 or newer
 
 ## [0.1.11] - 2025-12-25
 
